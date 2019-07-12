@@ -21,17 +21,17 @@ class Service(object):
         result = self.client.kline(symbol, interval=t, limit=20)
         l = np.array(result)
         data = []
-        data_detil = {}
+        data_detail = {}
         for x in np.nditer(l, flags=['external_loop'], order='F'):
             time_local = time.localtime(x[0])
-            data_detil['time'] = time.strftime("%Y-%m-%d %H:%M:%S", time_local)
-            data_detil['open'] = x[1]
-            data_detil['high'] = x[2]
-            data_detil['low'] = x[3]
-            data_detil['close'] = x[4]
-            data_detil['volume'] = x[5]
-            data.append(data_detil)
+            data_detail['time'] = time.strftime("%Y-%m-%d %H:%M:%S", time_local)
+            data_detail['open'] = x[1]
+            data_detail['high'] = x[2]
+            data_detail['low'] = x[3]
+            data_detail['close'] = x[4]
+            data_detail['volume'] = x[5]
+            data.append(data_detail)
         return data
 
+
 service = Service()
-# result = service.get_kline('btc_usdt', '1min')

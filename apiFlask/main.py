@@ -3,11 +3,10 @@ from service import service
 
 app = Flask(__name__)
 
-#
-# @app.route("/")
-# def hello_world():
-#     symbols = service.get_all_symbol()
-#     return jsonify(symbols)
+
+@app.route("/get_all_symbol")
+def get_all_symbol():
+    return jsonify(service.get_all_symbol())
 
 
 @app.route("/getTicker", methods=['GET'])
