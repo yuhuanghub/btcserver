@@ -4,9 +4,10 @@ from service import service
 app = Flask(__name__)
 
 
-@app.route("/get_all_symbol")
+@app.route("/getAllSymbol")
 def get_all_symbol():
-    return jsonify(service.get_all_symbol())
+    if request.method == 'GET':
+        return jsonify(service.get_all_symbol())
 
 
 @app.route("/getTicker", methods=['GET'])
