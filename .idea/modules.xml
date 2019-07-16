@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bs-cloud-parent/bs-cloud-parent.iml" filepath="$PROJECT_DIR$/bs-cloud-parent/bs-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs-common/bs-common.iml" filepath="$PROJECT_DIR$/bs-common/bs-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs-eureka-8002/bs-eureka-8002.iml" filepath="$PROJECT_DIR$/bs-eureka-8002/bs-eureka-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs-token-service-8001/bs-token-service-8001.iml" filepath="$PROJECT_DIR$/bs-token-service-8001/bs-token-service-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/btcserver.iml" filepath="$PROJECT_DIR$/.idea/btcserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/token/token.iml" filepath="$PROJECT_DIR$/token/token.iml" />
+    </modules>
+  </component>
+</project>

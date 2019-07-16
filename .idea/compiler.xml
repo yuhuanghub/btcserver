@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bs-common" />
+        <module name="bs-token-service-8001" />
+        <module name="bs-eureka-8002" />
+        <module name="token" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bs-cloud-parent" target="1.8" />
+      <module name="bs-common" target="1.8" />
+      <module name="bs-eureka-8002" target="1.8" />
+      <module name="bs-token-service-8001" target="1.8" />
+      <module name="bscloud-parent" target="1.8" />
+      <module name="token" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bs-common" options="-parameters" />
+      <module name="bs-eureka-8002" options="-parameters" />
+      <module name="bs-token-service-8001" options="-parameters" />
+      <module name="token" options="-parameters" />
+    </option>
+  </component>
+</project>
