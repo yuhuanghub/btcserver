@@ -20,7 +20,7 @@ import java.util.List;
 @Service
 public class TokenServiceImpl implements TokenService {
 
-    @Value("${url}")
+    @Value("${token.url}")
     String baseUrl;
 
     @Override

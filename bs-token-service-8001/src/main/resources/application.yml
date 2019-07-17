@@ -1,6 +1,8 @@
 server:
   port: 8001
 
+token:
+  url: localhost:5000
 #mybatis:
 #  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
 #  type-aliases-package: com.mengxuegu.springcloud.entities  # 所有Entity别名类所在包

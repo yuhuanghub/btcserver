@@ -12,6 +12,7 @@
         <module>../bs-token-service-8001</module>
         <module>../bs-eureka-8002</module>
         <module>../bs-hystrix-dashboard-8003</module>
+        <module>../bs-zuul-8004</module>
     </modules>
     <packaging>pom</packaging>
 
