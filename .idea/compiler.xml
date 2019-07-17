@@ -9,13 +9,14 @@
         <module name="bs-common" />
         <module name="bs-token-service-8001" />
         <module name="bs-eureka-8002" />
-        <module name="token" />
+        <module name="bs-hystrix-dashboard-8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bs-cloud-parent" target="1.8" />
       <module name="bs-common" target="1.8" />
       <module name="bs-eureka-8002" target="1.8" />
+      <module name="bs-hystrix-dashboard-8003" target="1.8" />
       <module name="bs-token-service-8001" target="1.8" />
       <module name="bscloud-parent" target="1.8" />
       <module name="token" target="1.8" />
@@ -25,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bs-common" options="-parameters" />
       <module name="bs-eureka-8002" options="-parameters" />
+      <module name="bs-hystrix-dashboard-8003" options="-parameters" />
       <module name="bs-token-service-8001" options="-parameters" />
       <module name="token" options="-parameters" />
     </option>

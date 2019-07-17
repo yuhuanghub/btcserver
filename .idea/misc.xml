@@ -6,11 +6,15 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/token/pom.xml" />
         <option value="$PROJECT_DIR$/bscloudparent/pom.xml" />
         <option value="$PROJECT_DIR$/bscloud-parent/pom.xml" />
         <option value="$PROJECT_DIR$/bs-cloud-parent/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/bs-cloud-parent/bs-hystrix-dashboard/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

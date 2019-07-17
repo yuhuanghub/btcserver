@@ -2,10 +2,11 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/bs-cloud-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bs-cloud-parent/bs-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bs-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bs-eureka-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bs-hystrix-dashboard-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bs-token-service-8001" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/token" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
