@@ -13,6 +13,7 @@
         <module>../bs-eureka-8002</module>
         <module>../bs-hystrix-dashboard-8003</module>
         <module>../bs-zuul-8004</module>
+        <module>../bs-user-service-8005</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -81,6 +82,17 @@
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>okhttp</artifactId>
                 <version>3.2.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>1.2.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

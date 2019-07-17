@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/bs-eureka-8002/bs-eureka-8002.iml" filepath="$PROJECT_DIR$/bs-eureka-8002/bs-eureka-8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/bs-hystrix-dashboard-8003/bs-hystrix-dashboard-8003.iml" filepath="$PROJECT_DIR$/bs-hystrix-dashboard-8003/bs-hystrix-dashboard-8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/bs-token-service-8001/bs-token-service-8001.iml" filepath="$PROJECT_DIR$/bs-token-service-8001/bs-token-service-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs-user-service-8005/bs-user-service-8005.iml" filepath="$PROJECT_DIR$/bs-user-service-8005/bs-user-service-8005.iml" />
       <module fileurl="file://$PROJECT_DIR$/bs-zuul-8004/bs-zuul-8004.iml" filepath="$PROJECT_DIR$/bs-zuul-8004/bs-zuul-8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/btcserver.iml" filepath="$PROJECT_DIR$/.idea/btcserver.iml" />
     </modules>
